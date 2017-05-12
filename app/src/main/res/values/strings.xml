@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Support Our Veterans</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="about_us">About Us</string>
+    <string name="gallery">Gallery</string>
+    <string name="our_work">Our Work</string>
+    <string name="volunteer">Volunteer</string>
+    <string name="contact_us">Contact Us</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="about_us_description">Our Organization is dedicated to continued
+    providing support to our veteran community. According to the data obtained from the Department of Defense,
+        1 in 3 veterans who has served in a war zone reports some form of physical or other health issue. The number
+        goes higher when it comes to how many of these veterans have this health issue get in the way of them finding
+        a job. Many veterans are pushed into homelessness. However, the county can help if it can identify such persons
+        and intervene to help them start their new chapter in the civilian life.
+        This app will provide the county with user\-generated data on homeless persons in San Diego. The
+        county officials can then identify such persons, reach out to them, intervene and help them out.
+        Currently, it is hard to obtain data on homeless veterans because of a lack of permanent address and
+        the information is not available as easily from the federal agencies.
+        By signing into the app, you can help. All you have to do is, if you spot a homeless person on the
+        streets of San Diego, just report it using the map tool. Your level of participation in this app will
+        determine how much information about the homeless person you will be asked to provide. Information includes
+        visible details such as, is the person carrying any sign or board that identifies them as veterans or what they
+        are requesting (food, money etc). This information is crucial in understanding the problems of homeless in
+        San Diego. The tool is especially designed for veterans but also captures data on other homeless persons.
+
+        If you register as a veteran, there are some more resources from the city for you.</string>
+
+        <string name="join_us"> There are many ways you can join
+    us: 1) Volunteer by reporting homeless citings. Your level of information determines
+    how much information you\'ll be asked to provide about the report. Your information will help the
+    County of San Diego identify homeless veterans in need of financial or any other assistance.
+    Currently, it is not easy to get this information and your reports will help!
+    2) Contribute: You can also contribute directly by donating an amount to the County of San Diego
+    by addressing this amount to : . Currently, it takes over 319 days on an average for a veteran
+    in San Diego to get their claims processed with the Veteran Affairs. It takes even longer at
+    the Los Angeles office according to the data obtained from the Department of Veteran Affairs.
+    If a veteran needs immediate financial assistance to address their health or mental issues,
+    we can reach out to such veterans through the County of San Diego that will identify veterans
+    in need and we can help them.</string>
+    <string name="user_registration">User Registration</string>
+    <string name="email">abc@example.com</string>
+    <string name="password">password</string>
+    <string name="already_registered_text">Already Registered? Sign In</string>
+    <string name="sign_up">Register</string>
+    <string name="new_user_text">New User? Sign Up</string>
+    <string name="sign_in_text">Sign In</string>
+    <string name="log_in">Log In</string>
+    <string name="nickname">Nickname</string>
+    <string name="title_activity_map_for_regular_user">Map</string>
+    <string name="report_homeless">Report</string>
+</resources>

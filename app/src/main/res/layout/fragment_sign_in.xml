@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.sdsu.androidfinal.androidfinalproject.RegisterUser">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="120sp"
+        android:paddingBottom="120sp"
+        android:paddingLeft="16sp"
+        android:paddingRight="16sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/user_sign_in_page_title"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/log_in"
+            android:layout_gravity="center_horizontal"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sign_in_email"
+            android:paddingTop="16sp"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sign_in_password"
+            android:paddingTop="16sp"
+            android:hint="@string/password"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16sp"
+            android:id="@+id/sign_in_button"
+            android:text="@string/sign_in_text"
+            />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/new_user"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="16sp"
+            android:textStyle="italic"
+            android:text="@string/new_user_text"/>
+
+
+    </LinearLayout>
+
+</FrameLayout>
